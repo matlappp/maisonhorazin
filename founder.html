@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Le Fondateur | Maison Horazin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rencontrez Didier, fondateur de Maison Horazin - Sa passion pour l'horlogerie et son approche personnalisée.">
+    <meta name="author" content="matlap">
+    <meta name="keywords" content="montres, luxe, horlogerie, bijoux">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="7 days">
+    <meta name="theme-color" content="#1a1a1a">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta rel="canonical" content="https://maisonhorazin.ca/">
+    <meta name="apple-mobile-web-app-title" content="Maison Horazin">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/mediaqueries.css">
+</head>
+<body>
+    <nav class="nav" id="nav">
+        <a href="index.html" class="logo">
+            <div class="logo-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+                    <circle cx="12" cy="12" r="10"/>
+                    <polyline points="12 6 12 12 16 14"/>
+                </svg>
+            </div>
+            <div class="logo-text">MAISON <span>HORAZIN</span></div>
+        </a>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link" data-page="index">Accueil</a>
+            <a href="boutique.html" class="nav-link" data-page="boutique">Boutique</a>
+            <a href="sourcing.html" class="nav-link" data-page="sourcing">Sourcing</a>
+            <a href="about.html" class="nav-link" data-page="about">La Maison</a>
+            <a href="founder.html" class="nav-link" data-page="founder">Le Fondateur</a>
+            <a href="contact.html" class="nav-link" data-page="contact">Contact</a>
+        </div>
+        <button class="mobile-menu-btn" onclick="openMobileMenu()">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
+                <line x1="3" y1="6" x2="21" y2="6"/>
+                <line x1="3" y1="12" x2="21" y2="12"/>
+                <line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+        </button>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <div class="logo-text">MAISON <span>HORAZIN</span></div>
+            <button class="mobile-menu-close" onclick="closeMobileMenu()">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+        </div>
+        <div class="mobile-nav-links">
+            <a href="index.html" class="mobile-nav-link" data-page="index">Accueil</a>
+            <a href="boutique.html" class="mobile-nav-link" data-page="boutique">Boutique</a>
+            <a href="sourcing.html" class="mobile-nav-link" data-page="sourcing">Sourcing</a>
+            <a href="about.html" class="mobile-nav-link" data-page="about">La Maison</a>
+            <a href="founder.html" class="mobile-nav-link" data-page="founder">Le Fondateur</a>
+            <a href="contact.html" class="mobile-nav-link" data-page="contact">Contact</a>
+        </div>
+    </div>
+    <section class="page-hero-tall">
+        <div class="container">
+            <div class="founder-content">
+                <div class="founder-image">
+                    <div class="founder-image-placeholder">D</div>
+                </div>
+                <div class="founder-text">
+                    <div class="section-label no-lines">Le fondateur</div>
+                    <h1>Je m'appelle Didier,<br>fondateur de Maison Horazin.</h1>
+                    <p>Ma passion pour l'horlogerie est née très tôt, non seulement pour les montres elles-mêmes, mais pour ce qu'elles représentent : le temps, la précision et l'excellence.</p>                    
+                    <p>J'ai créé Maison Horazin avec une idée simple : offrir une expérience différente — plus humaine, plus honnête et plus accessible — dans un monde souvent perçu comme fermé.</p>                   
+                    <p>Aujourd'hui, j'accompagne personnellement chaque client, que ce soit pour trouver une pièce rare, comprendre la valeur d'un modèle ou acheter en toute confiance.</p>                    
+                    <p class="founder-quote">Maison Horazin n'est pas une boutique. C'est une maison de confiance.</p>
+                    <div class="founder-signature">— Didier</div>
+                    <button class="btn btn-primary" style="margin-top: 2rem;" onclick="openChat()">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                        Me contacter directement
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <button class="chat-btn" id="chatBtn" onclick="openChat()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+    </button>
+    <div class="chat-window" id="chatWindow">
+        <div class="chat-header">
+            <div class="chat-header-info">
+                <div class="chat-avatar">D</div>
+                <div>
+                    <div class="chat-name">Didier</div>
+                    <div class="chat-status">
+                        <span class="chat-status-dot"></span>
+                        En ligne
+                    </div>
+                </div>
+            </div>
+            <button class="chat-close" onclick="closeChat()">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="chat-message from-didier">Bonjour, ici Didier — comment puis-je vous aider aujourd'hui ?</div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" class="chat-input" id="chatInput" placeholder="Votre message..." onkeypress="handleChatKeypress(event)">
+            <button class="chat-send" onclick="sendChatMessage()">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text">MAISON <span>HORAZIN</span></div>
+                </a>
+                <p>Montres de prestige. Service privé. Confiance absolue.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="boutique.html">Boutique</a></li>
+                    <li><a href="sourcing.html">Sourcing</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>La Maison</h4>
+                <ul>
+                    <li><a href="about.html">À propos</a></li>
+                    <li><a href="founder.html">Le Fondateur</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="mailto:contact@maisonhorazin.com">contact@maisonhorazin.com</a></li>
+                    <li><a href="tel:+15141234567">+1 (514) 123-4567</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Maison Horazin. Tous droits réservés.</p>
+            <p>Montréal, Québec, Canada</p>
+        </div>
+    </footer>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

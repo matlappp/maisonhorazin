@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>La Maison | Maison Horazin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez Maison Horazin - Notre mission, vision et valeurs dans l'univers de l'horlogerie de prestige.">
+    <meta name="author" content="matlap">
+    <meta name="keywords" content="montres, luxe, horlogerie, bijoux">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="7 days">
+    <meta name="theme-color" content="#1a1a1a">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta rel="canonical" content="https://maisonhorazin.ca/">
+    <meta name="apple-mobile-web-app-title" content="Maison Horazin">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/mediaqueries.css">
+</head>
+<body>
+    <nav class="nav" id="nav">
+        <a href="index.html" class="logo">
+            <div class="logo-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+                    <circle cx="12" cy="12" r="10"/>
+                    <polyline points="12 6 12 12 16 14"/>
+                </svg>
+            </div>
+            <div class="logo-text">MAISON <span>HORAZIN</span></div>
+        </a>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link" data-page="index">Accueil</a>
+            <a href="boutique.html" class="nav-link" data-page="boutique">Boutique</a>
+            <a href="sourcing.html" class="nav-link" data-page="sourcing">Sourcing</a>
+            <a href="about.html" class="nav-link" data-page="about">La Maison</a>
+            <a href="founder.html" class="nav-link" data-page="founder">Le Fondateur</a>
+            <a href="contact.html" class="nav-link" data-page="contact">Contact</a>
+        </div>
+        <button class="mobile-menu-btn" onclick="openMobileMenu()">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
+                <line x1="3" y1="6" x2="21" y2="6"/>
+                <line x1="3" y1="12" x2="21" y2="12"/>
+                <line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+        </button>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <div class="logo-text">MAISON <span>HORAZIN</span></div>
+            <button class="mobile-menu-close" onclick="closeMobileMenu()">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+        </div>
+        <div class="mobile-nav-links">
+            <a href="index.html" class="mobile-nav-link" data-page="index">Accueil</a>
+            <a href="boutique.html" class="mobile-nav-link" data-page="boutique">Boutique</a>
+            <a href="sourcing.html" class="mobile-nav-link" data-page="sourcing">Sourcing</a>
+            <a href="about.html" class="mobile-nav-link" data-page="about">La Maison</a>
+            <a href="founder.html" class="mobile-nav-link" data-page="founder">Le Fondateur</a>
+            <a href="contact.html" class="mobile-nav-link" data-page="contact">Contact</a>
+        </div>
+    </div>
+    <section class="page-hero">
+        <div class="container">
+            <div class="about-content">
+                <div class="section-label" style="justify-content: center;">Notre histoire</div>
+                <h1 style="font-size: 3rem; text-align: center; margin-bottom: 3rem;">Maison Horazin</h1>               
+                <p class="about-text first-letter">Maison Horazin est née d'une vision simple : rendre l'univers des montres de prestige accessible, humain et transparent. Dans un marché souvent perçu comme fermé et intimidant, nous avons choisi une approche différente — celle de la confiance, de l'écoute et de l'accompagnement personnalisé.</p>               
+                <p class="about-text">Nous accompagnons chaque client dans la découverte, l'achat et le sourcing de montres d'exception, avec une approche fondée sur la confiance, la rigueur et le service personnalisé. Contrairement aux plateformes impersonnelles, Maison Horazin fonctionne comme une maison privée : chaque demande est traitée individuellement, chaque montre est sélectionnée avec soin, et chaque client bénéficie d'un accompagnement direct et honnête.</p>
+                <p class="about-text">Notre mission : vous offrir l'excellence horlogère, sans complexité, sans pression — avec élégance et transparence.</p>
+                <div class="values-grid">
+                    <div class="value-item">
+                        <h3>Authenticité</h3>
+                        <p>Chaque pièce rigoureusement vérifiée</p>
+                    </div>
+                    <div class="value-item">
+                        <h3>Exclusivité</h3>
+                        <p>Des montres avec une histoire</p>
+                    </div>
+                    <div class="value-item">
+                        <h3>Humanité</h3>
+                        <p>Un accompagnement personnel</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="why-section">
+        <div class="container">
+            <div class="section-header center">
+                <div class="section-label">Nos services</div>
+                <h2>Ce que nous offrons</h2>
+            </div>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                    <h3>Vente de montres</h3>
+                    <p>Une sélection de montres et bijoux haut de gamme, neufs ou d'occasion, présentés avec transparence et honnêteté.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                    </div>
+                    <h3>Sourcing personnalisé</h3>
+                    <p>Recherche de pièces précises via notre réseau de partenaires fiables, avec vérification complète et négociation du meilleur prix.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <h3>Conseil & accompagnement</h3>
+                    <p>Conseils sur le choix d'une montre selon votre style et budget, l'investissement horloger, et l'entretien de vos pièces.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sourcing-section">
+        <div class="container">
+            <div class="section-header center">
+                <div class="section-label">Prêt à commencer ?</div>
+                <h2>Découvrez notre collection</h2>
+                <p style="margin-bottom: 2rem;">Explorez notre inventaire ou contactez-nous pour une demande personnalisée.</p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="boutique.html" class="btn btn-primary">
+                        Voir l'inventaire
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                    <a href="contact.html" class="btn btn-secondary">
+                        Nous contacter
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <button class="chat-btn" id="chatBtn" onclick="openChat()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+    </button>
+    <div class="chat-window" id="chatWindow">
+        <div class="chat-header">
+            <div class="chat-header-info">
+                <div class="chat-avatar">D</div>
+                <div>
+                    <div class="chat-name">Didier</div>
+                    <div class="chat-status">
+                        <span class="chat-status-dot"></span>
+                        En ligne
+                    </div>
+                </div>
+            </div>
+            <button class="chat-close" onclick="closeChat()">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="chat-message from-didier">Bonjour, ici Didier — comment puis-je vous aider aujourd'hui ?</div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" class="chat-input" id="chatInput" placeholder="Votre message..." onkeypress="handleChatKeypress(event)">
+            <button class="chat-send" onclick="sendChatMessage()">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text">MAISON <span>HORAZIN</span></div>
+                </a>
+                <p>Montres de prestige. Service privé. Confiance absolue.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="boutique.html">Boutique</a></li>
+                    <li><a href="sourcing.html">Sourcing</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>La Maison</h4>
+                <ul>
+                    <li><a href="about.html">À propos</a></li>
+                    <li><a href="founder.html">Le Fondateur</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="mailto:contact@maisonhorazin.com">contact@maisonhorazin.com</a></li>
+                    <li><a href="tel:+15141234567">+1 (514) 123-4567</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Maison Horazin. Tous droits réservés.</p>
+            <p>Montréal, Québec, Canada</p>
+        </div>
+    </footer>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
